@@ -32,7 +32,7 @@ public class CheckErrors {
         return outputText;
     }
 
-    //Check english and russian letters in text -- Ilya Меняем латиницу на кириллицу
+    //Check english and russian letters in text -- Ilya Меняем латиницу на кириллицу!
     static private StringBuilder checkUnicode(StringBuilder inputText){
         StringBuilder outputText = inputText;
 
