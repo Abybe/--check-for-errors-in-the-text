@@ -37,7 +37,7 @@ public class CheckErrors {
         StringBuilder outputText = inputText;
         switch (ch){
             case 'А': return "A"; // Пока что вбил кирилицу и латиницу, аля перевод с албанского на русский
-            case 'а': return "a";
+            case 'а': return "a"; // На самом деле тут транслитерация не в ту сторону... Но не все так плохо
             case 'Б': return "B";
             case 'б': return "b";
             case 'В': return "V";
